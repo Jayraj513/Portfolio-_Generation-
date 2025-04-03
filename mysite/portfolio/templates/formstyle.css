@@ -1,0 +1,244 @@
+.title {
+    text-align: center !important;
+    color: red;
+    border-radius: 10px;
+    box-shadow: 5px 10px 30px black;
+}
+
+.title:hover {
+    box-shadow: 5px 10px 15px black inset;
+    transition-duration: 0.4s;
+
+}
+
+/* start personal info */
+.row {
+    padding-left: 20%;
+    padding-right: 20%;
+    /* padding: 10px; */
+
+}
+
+.p-info {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px;
+
+}
+
+.p-info:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+
+
+}
+
+.p-info input {
+    margin-left: 50px;
+    padding-right: 20%;
+}
+
+/* .p-info label
+{
+    margin-left: 35px;
+    margin-right: 35px;
+} */
+.p-info label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.p-info i {
+    padding: 10px;
+}
+
+/* end personal info */
+
+
+/* start information yourself */
+
+.y-info {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px;
+}
+
+.y-info:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+
+}
+
+.y-info input {
+    margin-left: 50px;
+    padding-right: 20%;
+
+}
+
+.y-info label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+/* end information yourself */
+
+/* start project info */
+.project-info {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px;
+}
+
+.project-info:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+
+}
+
+.project-info input {
+    margin-left: 50px;
+    padding-right: 20%;
+}
+
+.project-info label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+/* End project info */
+
+
+/* start skill */
+.skill {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px;
+}
+
+.skill:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+}
+
+.skill input {
+    margin-left: 50px;
+    padding-right: 20%;
+}
+
+.skill label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skill i {
+    padding-right: 0px;
+}
+
+/* start skill */
+
+/* Start of resume */
+.resume {
+    background-color: #f0f0f0 !important;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px;
+}
+
+.resume:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+}
+
+
+/* End of resume */
+
+/* start contact */
+
+.card label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-card {
+    border-radius: 20px;
+    background-color: #f0f0f0 !important;
+    box-shadow: 5px 10px 15px;
+}
+
+.contact-card:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+}
+
+/* end contact */
+
+/* start feedback */
+.text-word {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+
+
+
+}
+
+.text-word i {
+    padding: 10px;
+}
+
+.feedback {
+    border-radius: 20px;
+    background-color: #f0f0f0 !important;
+    box-shadow: 5px 10px 15px;
+   
+}
+
+.feedback:hover {
+    box-shadow: 5px 10px 15px black inset;
+
+}
+
+/* end feedback */
+
+/*start submit  */
+
+.submit input {
+    background-color: rgb(211, 79, 79);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 10px 15px;
+}
+
+.submit input:hover {
+    box-shadow: 5px 10px 15px black;
+    transition-duration: 0.4s;
+
+}
+
+/* end submit */
+
+.whole-page {
+    background-color: rgb(131, 129, 126);
+    animation-name: background;
+    animation-duration: 12s;
+    border-radius: 0px 400px 0px 500px;
+    
+}
+
+@keyframes background {
+    from {
+        background-color: rgb(223, 223, 223);
+    }
+
+    to {
+        background-color: rgba(175, 160, 160, 0.986);
+    }
+
+}
+
+.row h3 {
+    color: red;
+}
